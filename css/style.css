@@ -162,7 +162,7 @@ footer{
 }
 
 .social{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .social h5{
@@ -172,4 +172,18 @@ footer{
 
 .social a{
     margin-right: 5px;
+}
+
+.social-menu{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.social-menu li{
+    margin: 2px;
+}
+
+.social-menu a :hover{
+    transform: translate(0,-10px);
 }
