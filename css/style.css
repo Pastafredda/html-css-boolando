@@ -1,0 +1,114 @@
+/* Regole Generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+    background-color: #E96629;
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 900; */
+    
+}
+
+.centratura{
+    width: 80%;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+}
+
+#logo img{
+    height: 28px;
+   
+}
+
+.reparto{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 160px;
+    list-style-type: none;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+/* Main */
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.prodotti{
+    width: 80%;
+    position: relative;
+}
+
+article img{
+    max-width: 100%;
+
+}
+
+.heart{
+    background-color: white;
+    padding: 8px 12px;
+    font-size: 28px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.info{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    top: 80%;
+    left: 0;
+}
+
+.sconto{
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+}
+
+.materiale{
+    background-color: green;
+    color: white;
+    padding: 2px 4px;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.ex-price{
+    text-decoration: line-through;
+}
